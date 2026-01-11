@@ -1,4 +1,5 @@
 import "./globals.css";
+import Link from "next/link";
 
 export const metadata = {
   title: "Create Next App",
@@ -8,9 +9,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body>
+        <nav>
+          <Link href="/">Home</Link>
+          <Link href="/ueber-uns">Über Uns</Link>
+          <Link href="/leistungen">Leistungen</Link>
+          <Link href="/gewerbe">Gewerbe</Link>
+          <Link href="/privat">Privat</Link>
+          <Link href="/kontakt">Kontakt</Link>
+        </nav>
         {children}
       </body>
     </html>
