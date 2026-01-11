@@ -17,6 +17,8 @@ export default function RootLayout({ children }) {
           <Link href="/gewerbe">Gewerbe</Link>
           <Link href="/privat">Privat</Link>
           <Link href="/kontakt">Kontakt</Link>
+          <Link href="/impressum">Impressum</Link>
+          <Link href="/datenschutz">Datenschutz</Link>
         </nav>
         {children}
       </body>
