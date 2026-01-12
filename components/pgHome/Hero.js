@@ -11,12 +11,12 @@ export default function Hero() {
           <div className="w-1/4 h-full border-r border-gray-200"></div>
           <div className="w-1/4 h-full"></div>
         </div>
-        <div className="absolute">
-          <h1 className="text-5xl font-bold text-center mt-12">
-            Trockenbau Leyer
+        <div className="absolute w-full h-full flex flex-col justify-center px-12 gap-1">
+          <h1 className="text-7xl font-light text-right">
+            Planung. Koordination. Umsetzung.
           </h1>
-          <h1 className="text-center mt-4 text-lg">
-            Ihr Partner für Trockenbau und Innenausbau
+          <h1 className="text-7xl text-accent font-light text-right pr-[25%]">
+            Innenräume aus einer Hand.
           </h1>
         </div>
       </div>

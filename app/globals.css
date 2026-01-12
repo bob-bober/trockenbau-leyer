@@ -51,9 +51,9 @@
 }
 
 .org-box {
-  @apply bg-accent w-4 h-4
+  @apply bg-accent w-4 h-4;
 }
 
 .nav-link {
-  @apply flex items-center justify-center gap-2
+  @apply flex items-center justify-center gap-2;
 }
